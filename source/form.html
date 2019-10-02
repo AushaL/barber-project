@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <title>Барбершоп «Бородинский» – Форма регистрации</title>
+	<link rel="stylesheet" href="css/normilize.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header class="page-header">
+		<a class="page-header__logo-link">
+			<img class="page-header__logo-image" src="img/logotype-mobile.svg" width="226" height="30" alt="Барбершоп «Бородинский»">
+		</a>
+		<nav class="main-nav">
+			<button class="main-nav__toggle" type="button">Открыть меню</button>
+			<div class="main-nav__wrapper">
+				<ul class="main-nav__list site-list">
+					<li class="site-list__item site-list__item--active">
+						<a href="#">Главная</a>
+					</li>
+					<li class="site-list__item">
+						<a href="#">Наши работы</a>
+					</li>
+					<li class="site-list__item">
+						<a href="#">Записаться</a>
+					</li>
+					<li class="site-list__item">
+						<a href="#">Контакты</a>
+					</li>
+					<li class="site-list__item">
+						<a href="#">HTML Academy</a>
+					</li>
+				</ul>
+				<ul class="main-nav__list user-list">
+					<li class="user-list__item">
+						<a class="user-list__login" href="login.html">Вход</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main class="page-main">
+		<section class="barber-filter">
+			<h2 class="barber-filter__title">Запись на стрижку</h2>
+			<a class="barber-filter__link button" href="index.html">На главную</a>
+			<form class="barber-filter__form" action="" method="post">
+				<fieldset class="barber-filter__item">
+					<input class="barber-filter__user-last-name" name="last-name" type="text" placeholder="Фамилия">
+					<input class="barber-filter__user-first-name" name="first-name" type="text" placeholder="Имя">
+					<input class="barber-filter__user-father-name" name="father-name" type="text" placeholder="Отчество">
+					<input class="barber-filter__user-phone" name="user-phone" type="text" placeholder="Контактный телефон">
+					<input class="barber-filter__user-email" name="user-email" type="text" placeholder="Контактный e-mail">
+					<textarea class="barber-filter__user-info" name="user-info">Доп. информация для мастера</textarea>
+				</fieldset>
+				<fieldset class="barber-filter__item">
+					<h3 class="barber-filter__header">Выберите модель бороды:</h3>
+					<input class="barber-filter__radio-button" name="beard-type" value="admiral" id="admiral" type="radio" checked>
+					<label for="admiral">Адмирал</label>
+					<input class="barber-filter__radio-button" name="beard-type" value="lumberjack" id="lumberjack" type="radio">
+					<label for="lumberjack">Лесоруб</label>
+					<input class="barber-filter__radio-button" name="beard-type" value="polar" id="polar" type="radio">
+					<label for="polar">Полярник</label>
+					<input class="barber-filter__radio-button" name="beard-type" value="boyar" id="boyar" type="radio">
+					<label for="boyar">Боярин</label>
+					<input class="barber-filter__radio-button" name="beard-type" value="sage" id="sage" type="radio">
+					<label for="sage">Мудрец</label>
+				</fieldset>
+				<fieldset class="barber-filter__item">
+					<h3 class="barber-filter__header">Дополнительные услуги:</h3>
+					<input class="barber-filter__checkbox" name="sub-features" value="paint-beard" id="paint-beard" type="checkbox" checked>
+					<label for="paint-beard">Подкрасить бороду</label>
+					<input class="barber-filter__checkbox" name="sub-features" value="wind-up-mustache" id="wind-up-mustache" type="checkbox" checked>
+					<label for="wind-up-mustache">Накрутить усы</label>
+					<input class="barber-filter__checkbox" name="sub-features" value="comb-beard" id="comb-beard" type="checkbox">
+					<label for="comb-beard">Причесать бороду</label>
+					<input class="barber-filter__checkbox" name="sub-features" value="trim" id="trim" type="checkbox">
+					<label for="trim">Подровнять виски</label>
+					<input class="barber-filter__checkbox" name="sub-features" value="remove-gray" id="remove-gray" type="checkbox">
+					<label for="remove-gray">Убрать седину</label>
+					<input class="barber-filter__checkbox" name="sub-features" value="polish-bald" id="polish-bald" type="checkbox">
+					<label for="polish-bald">Отполировать лысину</label>
+				</fieldset>
+				<button class="barber-filter__submit-button button" type="button">Отправить заявку</button>
+			</form>
+			<div class="barber-filter__failure failure-modal">
+				<h3 class="failure-modal__title">НЕУДАЧА</h3>
+				<p class="failure-modal__text">Что-то пошло не так. Проверьте выделенные красным поля формы.</p>
+				<button class="failure-modal__button button" type="button">ОК</button>
+			</div>
+			<div class="barber-filter__success success-modal">
+				<h3 class="success-modal__title">ЭТО УСПЕХ!</h3>
+				<p class="success-modal__text">Ваша заявка отправлена. Ожидайте, мы свяжемся с вами как только будет минутка.</p>
+				<button class="success-modal__button button" type="button">Закрыть окно</button>
+			</div>
+		</section>
+	</main>
+	<footer class="page-footer">
+		<div class="page-footer__wrapper">
+			<div class="page-footer__contacts contacts">
+				<b class="contacts__title">Барбершоп «Бородинский»</b>
+				<p class="contacts__text">
+					г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+					<a class="contacts__phone" href="tel:+78125556666">
+						<span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66
+					</a>
+				</p>
+			</div>
+			<div class="page-footer__social social">
+				<b class="social__title">Давайте дружить!</b>
+				<ul class="social__list">
+					<li class="social__item">
+						<a class="social__link social__link--vkontakte" href="#">Вконтакте</a>
+					</li>
+					<li class="social__item">
+						<a class="social__link social__link--facebook" href="#">Фейсбук</a>
+					</li>
+					<li class="social__item">
+						<a class="social__link social__link--instagram" href="#">Инстаграм</a>
+					</li>
+				</ul>
+			</div>
+			<div class="page-footer__copyright copyright">
+				<b class="copyright__title">Разработано:</b>
+				<a class="copyright__link button" href="#">HTML Academy</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
