@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Барбершоп «Бородинский»</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normilize.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -21,16 +22,16 @@
 						<a href="#">Главная</a>
 					</li>
 					<li class="site-list__item">
-						<a href="#">Наши работы</a>
+						<a class="site-list__link" href="#">Наши работы</a>
 					</li>
 					<li class="site-list__item">
-						<a href="#">Записаться</a>
+						<a class="site-list__link" href="#">Записаться</a>
 					</li>
 					<li class="site-list__item">
-						<a href="#">Контакты</a>
+						<a class="site-list__link" href="#">Контакты</a>
 					</li>
 					<li class="site-list__item">
-						<a href="#">HTML Academy</a>
+						<a class="site-list__link" href="#">HTML Academy</a>
 					</li>
 				</ul>
 				<ul class="main-nav__list user-list">
@@ -111,7 +112,7 @@
 					<li class="news__item">
 						<time class="news__date" datetime="2019-09-19">
 							<b class="news__day">19</b> сент
-						</time>>
+						</time>
 						<p class="news__text">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды. Спешите записаться!</p>
 					</li>
 				</ul>
@@ -186,5 +187,18 @@
 			</div>
 		</div>
 	</footer>
+	<section class="subscribe-modal">
+		<h2 class="subscribe-modal__title">ЛИЧНЫЙ КАБИНЕТ</h2>
+		<p class="subscribe-modal__text">Введите свой логин и пароль, чтобы войти</p>
+		<form class="subscribe-modal__form" action="" method="post">
+			<input class="subscribe-modal__input subscribe-modal__user -name" name="user-name" type="text" placeholder="Логин">
+			<input class="subscribe-modal__input subscribe-modal__user-password" name="user-password" type="text" placeholder="Пароль">
+			<input class="subscribe-modal__remember-me" name="remember-user" id="remember-me" type="checkbox">
+			<label for="remember-me">Запомните меня</label>
+			<a class="subscribe-modal__forget-password" href="#">Я забыл пароль!</a>
+			<button class="subscribe-modal__button button" type="submit">Войти</button>
+			<button class="subscribe-modal__close-button" type="button">Закрыть</button>
+		</form>
+	</section>
 </body>
 </html>

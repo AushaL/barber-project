@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <title>Барбершоп «Бородинский» – Форма регистрации</title>
+	<title>Барбершоп «Бородинский» – Форма регистрации</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normilize.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -18,20 +19,20 @@
 			<button class="main-nav__toggle" type="button">Открыть меню</button>
 			<div class="main-nav__wrapper">
 				<ul class="main-nav__list site-list">
-					<li class="site-list__item site-list__item--active">
-						<a href="#">Главная</a>
+					<li class="site-list__item">
+						<a class="site-list__link" href="index.html">Главная</a>
 					</li>
 					<li class="site-list__item">
-						<a href="#">Наши работы</a>
+						<a class="site-list__link" href="#">Наши работы</a>
 					</li>
 					<li class="site-list__item">
-						<a href="#">Записаться</a>
+						<a class="site-list__link site-list__item--active" href="#">Записаться</a>
 					</li>
 					<li class="site-list__item">
-						<a href="#">Контакты</a>
+						<a class="site-list__link" href="#">Контакты</a>
 					</li>
 					<li class="site-list__item">
-						<a href="#">HTML Academy</a>
+						<a class="site-list__link" href="#">HTML Academy</a>
 					</li>
 				</ul>
 				<ul class="main-nav__list user-list">
@@ -43,9 +44,9 @@
 		</nav>
 	</header>
 	<main class="page-main">
+		<h1 class="page-main__title">Запись на стрижку</h1>
+		<a class="main-page__main-page-link button" href="index.html">На главную</a>
 		<section class="barber-filter">
-			<h2 class="barber-filter__title">Запись на стрижку</h2>
-			<a class="barber-filter__link button" href="index.html">На главную</a>
 			<form class="barber-filter__form" action="" method="post">
 				<fieldset class="barber-filter__item">
 					<input class="barber-filter__user-last-name" name="last-name" type="text" placeholder="Фамилия">
@@ -128,6 +129,5 @@
 			</div>
 		</div>
 	</footer>
-
 </body>
 </html>

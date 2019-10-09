@@ -1,0 +1,43 @@
+.stats__header {
+	background-color: $white-color;
+}
+
+.stats__slogan {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.stats__intro {
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.stats__legend {
+	font-size: 20px;
+	line-height: 27px;
+	color: rgba($color: $white-color, $alpha: 0.3);
+	background-color: $main-color;
+}
+
+.stats__value {
+	font-size: 40px;
+	line-height: 18px;
+	font-weight: 700;
+	color: $white-color;
+}
+
+.stats__field {
+	font-size: 18px;
+	line-height: 18px;
+	color: $white-color;
+}
+
+.stats__list tr::nth-child(1n) {
+	background-color: #404040;
+}
+
+.stats__list tr::nth-child(2n) {
+	background-color: #4e4e4e;
+}

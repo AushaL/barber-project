@@ -1,0 +1,11 @@
+.site-list__link {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #826550;
+	&:hover {
+		background-color: #755a46;
+	}
+}

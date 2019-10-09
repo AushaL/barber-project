@@ -1,0 +1,52 @@
+.subscribe-modal {
+	background-color: #f8f5f2;
+}
+
+.subscribe-modal__title {
+	@include section-title;
+}
+
+.subscribe-modal__text {
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.subscribe-modal__input {
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 30px;
+	background-color: $white-color;
+	border: 1px solid #e5ddd5;
+	&:hover {
+		border-color: #d5c9bd;
+	}
+	&:focus {
+		border-color: #999999;
+	}
+}
+
+.subscribe-modal__remember-me {
+	border: 1px solid #f8f5f2;
+}
+
+.subscribe-modal__remember-me + label {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.subscribe-modal__forget-password {
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.subscribe-modal__button {
+	background-color: #826550;
+}
+
+.subscribe-modal__close-button {
+	border: 1px solid #e5ddd5;
+}

@@ -1,0 +1,18 @@
+.reviews__wrapper {
+	background-color: #f8f5f2;
+}
+
+.reviews__title {
+	@include section-title;
+}
+
+.reviews__author-name {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+.reviews__text {
+	font-size: 18px;
+	line-height: 27px;
+}

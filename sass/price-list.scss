@@ -1,0 +1,31 @@
+.price-list__wrapper {
+	background-color: #353535;
+}
+
+.price-list__title {
+	@include section-title;
+	color: $white-color;
+}
+
+.price-list__field {
+	font-size: 20px;
+	line-height: 27px;
+	font-weight: 700;
+	color: $white-color;
+}
+
+.price-list__value {
+	font-size: 20px;
+	line-height: 27px;
+	color: $white-color;
+}
+
+.price-list__discount {
+	border: 1px solid #484848;
+}
+
+.discount__text {
+	font-size: 20px;
+	line-height: 27px;
+	color: $white-color;
+}
