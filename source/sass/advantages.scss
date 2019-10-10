@@ -1,11 +1,13 @@
-.advantages-list {
+.advantages__list {
+	@include list-style-none;
 	background-color: $main-color;
 }
 
-.advantages-title {
+.advantages__title {
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 700;
+	text-transform: uppercase;
 	color: $white-color;
 }
 

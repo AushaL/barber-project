@@ -1,0 +1,17 @@
+.barber-filter {
+	background-color: #f8f5f2;
+}
+
+.barber-filter__item {
+	@include fieldset-reset;
+}
+
+.barber-filter__item input {
+	border: 1px solid #e5ddd5;
+}
+
+.barber-filter__item input[placeholder=""] {
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+}

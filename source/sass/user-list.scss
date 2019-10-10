@@ -1,4 +1,5 @@
 .user-list {
+	@include list-style-none;
 	background-color: #6a4d38;
 }
 

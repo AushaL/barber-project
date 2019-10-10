@@ -31,13 +31,21 @@
 .stats__field {
 	font-size: 18px;
 	line-height: 18px;
-	color: $white-color;
+	color: #f7f4f1;
 }
 
-.stats__list tr::nth-child(1n) {
+.stats__list:first-child {
 	background-color: #404040;
 }
 
-.stats__list tr::nth-child(2n) {
+.stats__list:nth-child(2) {
 	background-color: #4e4e4e;
+}
+
+.stats__list:nth-child(3) {
+	background-color: #353535;
+}
+
+.stats__list:last-child{
+	background-color: #404040;
 }

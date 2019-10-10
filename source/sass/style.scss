@@ -9,15 +9,20 @@
 @import "reviews.scss";
 @import "page-footer.scss";
 @import "contacts.scss";
-@import "social";
-@import "copyright";
-@import "page-main";
-@import "portfolio";
-@import "price-list";
-@import "subscribe-modal";
+@import "social.scss";
+@import "copyright.scss";
+@import "page-main.scss";
+@import "portfolio.scss";
+@import "price-list.scss";
+@import "subscribe-modal.scss";
+@import "barber-filter.scss";
 
 body {
 	font-family: 'PT Sans Narrow', 'Arial', sans-serif;
 	font-weight: 400;
 	color: #000000;
+}
+
+a {
+	text-decoration: none;
 }

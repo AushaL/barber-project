@@ -3,7 +3,11 @@
 }
 
 .main-nav__toggle {
+	border: none;
 	background-color: #6a4d38;
+	&:hover {
+		background-color: #624530;
+	}
 }
 
 .main-nav__list {

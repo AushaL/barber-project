@@ -2,6 +2,10 @@
 	background-color: #f8f5f2;
 }
 
+.portfolio__list {
+	@include list-style-none;
+}
+
 .portfolio__text-container {
 	border: 1px solid #e6ded7;
 	border-top: none;
