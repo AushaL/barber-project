@@ -8,10 +8,49 @@
 
 .barber-filter__item input {
 	border: 1px solid #e5ddd5;
+	&:hover {
+		border-color: #d5c9bd;
+	}
+	&:focus {
+		outline: none;
+		border-color: #999999;
+	}
 }
 
-.barber-filter__item input[placeholder=""] {
+.barber-filter__item input[placeholder] {
 	font-size: 18px;
 	line-height: 30px;
 	color: #000000;
+}
+
+.barber-filter__user-info {
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+	border: 1px solid #e5ddd5;
+	resize: none;
+	&:hover {
+		border-color: #d5c9bd;
+	}
+	&:focus {
+		outline: none;
+		border-color: #999999;
+	}
+}
+
+.barber-filter__header {
+	font-size: 20px;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+
+.barber-filter__radio-label {
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: lowercase;
+}
+
+.barber-filter__check-label {
+	font-size: 18px;
+	line-height: 30px;
 }

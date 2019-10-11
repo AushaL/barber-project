@@ -1,0 +1,20 @@
+.button {
+	border: none;
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: $white-color;
+	background-color: #826550;
+	&:hover {
+		background-color: #6a4d38;
+	}
+	&:active {
+		background-color: #6a4d38;
+		color: rgba($color: #ffffff, $alpha: 0.3);
+	}
+	&:disabled {
+		background-color: #aeaeae;
+	}
+}
