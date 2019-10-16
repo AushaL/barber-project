@@ -1,6 +1,9 @@
 @import "mixins.scss";
-@import "variates.scss";
+@import "variables.scss";
+@import "scaffolding.scss";
+@import "container.scss";
 @import "page-header.scss";
+@import "main-nav.scss";
 @import "site-list.scss";
 @import "user-list.scss";
 @import "stats.scss";
@@ -19,13 +22,3 @@
 @import "button.scss";
 @import "failure-modal.scss";
 @import "success-modal.scss";
-
-body {
-	font-family: 'PT Sans Narrow', 'Arial', sans-serif;
-	font-weight: 400;
-	color: #000000;
-}
-
-a {
-	text-decoration: none;
-}

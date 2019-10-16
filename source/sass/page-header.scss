@@ -1,19 +1,22 @@
+.page-header {
+	display: flex;
+	flex-direction: column;
+}
+
 .page-header__logo-link {
+	height: 85px;
 	background-color: $main-color;
 }
 
-.main-nav__toggle {
-	border: none;
-	background-color: #6a4d38;
-	&:hover {
-		background-color: #624530;
+@media (min-width: $tablet-width) {
+	.page-header__logo-link {
+		order: 2;
+		height: 400px;
 	}
 }
 
-.main-nav__list {
-	background-color: #826550;
+@media (min-width: $desktop-width) {
+	.page-header__logo-link {
+		height: 648px;
+	}
 }
-
-
-
-
