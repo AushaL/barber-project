@@ -17,4 +17,6 @@
 
 @mixin fieldset-reset {
 	border: none;
+	margin: 0;
+	padding: 0;
 }

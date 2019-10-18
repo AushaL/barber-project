@@ -1,3 +1,8 @@
+.price-list {
+	width: 320px;
+	margin: 0 auto;
+}
+
 .price-list__wrapper {
 	background-color: #353535;
 }
@@ -28,4 +33,21 @@
 	font-size: 20px;
 	line-height: 27px;
 	color: $white-color;
+}
+
+@media (min-width: $tablet-width) {
+	.price-list {
+		width: 640px;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.price-list {
+		width: 960px;
+	}
+
+	.price-list__wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
 }

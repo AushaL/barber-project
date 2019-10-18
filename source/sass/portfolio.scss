@@ -1,4 +1,6 @@
 .portfolio {
+	width: 320px;
+	margin: 0 auto;
 	background-color: #f8f5f2;
 }
 
@@ -35,4 +37,38 @@
 	font-size: 16px;
 	line-height: 27px;
 	text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+	.portfolio {
+		width: 640px;
+	}
+
+	.portfolio__item {
+		margin-bottom: 40px;
+	}
+
+	.portfolio__list:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.portfolio {
+		width: 960px;
+	}
+
+	.portfolio__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.portfolio__item {
+		width: 292px;
+	}
+
+	.portfolio__item--special {
+		width: 960px;
+	}
 }

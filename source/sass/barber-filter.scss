@@ -1,4 +1,6 @@
 .barber-filter {
+	width: 320px;
+	margin: 0 auto;
 	background-color: #f8f5f2;
 }
 
@@ -53,4 +55,43 @@
 .barber-filter__check-label {
 	font-size: 18px;
 	line-height: 30px;
+}
+
+@media (min-width: $tablet-width) {
+	.barber-filter {
+		width: 640px;
+	}
+
+	.barber-filter__user-name {
+		width: 210px;
+	}
+
+	.barber-filter__user-phone {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.barber-filter__user-email {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.barber-filter__user-info {
+		box-sizing: border-box;
+		width: 100%;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.barber-filter {
+		width: 960px;
+	}
+
+	.barber-filter__user-phone {
+		width: 460px;
+	}
+
+	.barber-filter__user-email {
+		width: 460px;
+	}
 }

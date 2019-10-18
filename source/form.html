@@ -43,15 +43,17 @@
 			</div>
 		</nav>
 	</header>
-	<main class="page-main">
-		<h1 class="page-main__title">Запись на стрижку</h1>
-		<a class="main-page__main-page-link button" href="index.html">На главную</a>
+	<main class="page-main inner-page">
+		<div class="page-main__container">
+			<h1 class="page-main__title">Запись на стрижку</h1>
+			<a class="main-page__main-page-link" href="index.html">На главную</a>
+		</div>
 		<section class="barber-filter">
 			<form class="barber-filter__form" action="" method="post">
 				<fieldset class="barber-filter__item">
-					<input class="barber-filter__user-last-name" name="last-name" type="text" placeholder="Фамилия">
-					<input class="barber-filter__user-first-name" name="first-name" type="text" placeholder="Имя">
-					<input class="barber-filter__user-father-name" name="father-name" type="text" placeholder="Отчество">
+					<input class="barber-filter__user-last-name barber-filter__user-name" name="last-name" type="text" placeholder="Фамилия">
+					<input class="barber-filter__user-first-name barber-filter__user-name" name="first-name" type="text" placeholder="Имя">
+					<input class="barber-filter__user-father-name barber-filter__user-name" name="father-name" type="text" placeholder="Отчество">
 					<input class="barber-filter__user-phone" name="user-phone" type="text" placeholder="Контактный телефон">
 					<input class="barber-filter__user-email" name="user-email" type="text" placeholder="Контактный e-mail">
 					<textarea class="barber-filter__user-info" name="user-info">Доп. информация для мастера</textarea>
@@ -125,7 +127,7 @@
 			</div>
 			<div class="page-footer__copyright copyright">
 				<b class="copyright__title">Разработано:</b>
-				<a class="copyright__link button" href="#">HTML Academy</a>
+				<a class="copyright__link" href="#">HTML Academy</a>
 			</div>
 		</div>
 	</footer>
